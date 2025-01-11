@@ -81,13 +81,18 @@ ___
 
 ---
 
-#### LISTS
+##### LISTS
 
 - Fruit - Apples
   
   - Red
   - Green
 
+##### TASKS - (Clickable in an Issue)
+  
+- [ ] Example 1
+- [x] Example 2 completed
+- [ ] Example 3
 ---
 
 ## Links
@@ -100,15 +105,6 @@ ___
 ## Images 
 ![Screenshot Capture - 2025-01-11 - 09-49-45](https://github.com/user-attachments/assets/54bf0edb-86b8-4590-ac9f-2c21be7690c4)
 ![ball](https://github.com/user-attachments/assets/1c0d421c-ffee-4426-a258-46435fd90d88)
-
----
-
-
-#### TASKS - (Clickable in an Issue)
-  
-- [ ] Example 1
-- [x] Example 2 completed
-- [ ] Example 3
 
 ---
 
@@ -386,7 +382,7 @@ Make your text fun and engaging with emojis:
 |                    | 🌐 `:globe_with_meridians:` | Globe with Meridians (Internet and Networking) |
 
 ## Tips and Tricks
-#### Embedded HTML
+##### Embedded HTML
 Add collapsible sections or advanced styles with HTML:
 
 ![Screenshot Capture - 2025-01-11 - 09-03-24](https://github.com/user-attachments/assets/eac0e11a-152c-4c34-a439-da2c2efbfe0f)
@@ -396,7 +392,7 @@ Add collapsible sections or advanced styles with HTML:
   Hidden content here.
 </details>
 
-#### Blockquotes Highlight code for various programming languages
+##### Blockquotes Highlight code for various programming languages
 
 - BLockquote: `> Normal Blockquote ` →
 > Normal Blockquote
@@ -405,18 +401,18 @@ Add collapsible sections or advanced styles with HTML:
 - BLockquote: `> _Italic Blockquote_  ` →
 > _Italic Blockquote_
 
-#### Code blocks - highlight code for various programming languages
+##### Code blocks - highlight code for various programming languages
 ![Screenshot Capture - 2025-01-11 - 08-43-12](https://github.com/user-attachments/assets/8798e75e-d880-478b-8911-f2294e3c80b6)
 
 ```python
 def hello_world():
     print("Hello, world!")
 ```
-#### Hidden Comment
+##### Hidden Comment
 
 ` [This is a hidden comment.]: #  `
 
-#### DEFINITIONS
+##### DEFINITIONS
 
 <dl>
   <dt><strong>Lower cost</strong></dt>
