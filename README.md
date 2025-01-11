@@ -92,7 +92,8 @@ ___
 
 ## Links
 
-- Hyperlnk
+![Screenshot Capture - 2025-01-11 - 09-54-18](https://github.com/user-attachments/assets/a67a36b9-9dbf-4070-8626-3dd2dfb78367)
+[Visit Mozilla](https://www.mozilla.org)
 
 ---
 
