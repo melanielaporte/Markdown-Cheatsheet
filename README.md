@@ -1,4 +1,4 @@
-<h1 align="center">🛠️ Markdown Cheatsheet 🛠️</h1>
+<h1 align="center">:wrench: Markdown Cheatsheet :wrench:</h1>
 
 Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdown syntax and creating beautifully formatted documents! Whether you're a beginner or a seasoned pro, this cheatsheet is designed to help you quickly reference and utilize Markdown effectively.
 
@@ -425,9 +425,8 @@ def hello_world():
 ```
 #### Hidden Comment
 
-' [This is a hidden comment.]: # '
 ` [This is a hidden comment.]: #  `
-[This is a hidden comment.]: # 
+
 ---
 
 
