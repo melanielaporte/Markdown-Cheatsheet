@@ -10,6 +10,7 @@ Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdo
 - [Footnotes](#footnotes)
 - [Lines](#lines)
 - [Lists](#lists)
+- [Links](#links)
 - [Tables](#tables)
 - [Graphs](#graphs)
 - [Emojis](#emojis)
@@ -80,15 +81,26 @@ ___
 
 ---
 
-
-## Lists
-
 #### LISTS
 
 - Fruit - Apples
   
   - Red
   - Green
+
+---
+
+## Links
+
+- Hyperlnk
+
+---
+
+## Images 
+![Screenshot Capture - 2025-01-11 - 09-49-45](https://github.com/user-attachments/assets/54bf0edb-86b8-4590-ac9f-2c21be7690c4)
+![ball](https://github.com/user-attachments/assets/1c0d421c-ffee-4426-a258-46435fd90d88)
+
+---
 
 #### DEFINITIONS
 
@@ -103,7 +115,6 @@ ___
 </dl>
 
 #### TASKS - (Clickable in an Issue)
-
   
 - [ ] Example 1
 - [x] Example 2 completed
