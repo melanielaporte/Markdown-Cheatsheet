@@ -7,12 +7,11 @@ Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdo
 
 ## Table of Contents
 - [Text Decoration](#text-decoration)
-- [Code Blocks & Blockquotes](#code-blocks-&-blockquotes)
 - [Footnotes](#footnotes)
 - [Lines](#lines)
 - [Lists](#lists)
 - [Tables](#tables)
-- [Embedded HTML](#embedded-html)
+- [Graphs](#graphs)
 - [Tips and Tricks](#tips-and-tricks)
 - [Contributing](#contributing)
 - [License](#license)
@@ -39,9 +38,6 @@ Here’s how to style your text:
 - Inline Code: `` `code` `` → `code`
 - Math equation superscript: `$$E = mc^2$$` →  $$E = mc^2$$
 - Math equation subscript: `H<sub>2</sub>O (Water)` → H<sub>2</sub>O (Water)
-- Emoji smile: `:smile: ` → :smile:
-- Emoji rocket: `:rocket: ` → :rocket:
-- Emoji celebration: `:tada: ` → :tada:
 - Highlighted: `<mark>This text is highlighted.</mark> ` → <mark>This text is highlighted.</mark> 
 - Small/tiny print: `This is <sub>small or fine </sub>print text.
  ` → This is <sub>small or fine </sub>print text. 
@@ -49,30 +45,13 @@ Here’s how to style your text:
 
 ---
 
-## Code Blocks & Blockquotes
-
-Highlight code for various programming languages:
-
-- BLockquote: `> Normal Blockquote ` →
-> Normal Blockquote
-- BLockquote: `> **Bold Blockquote** ` →
-> **Bold Blockquote**
-- BLockquote: `> _Italic Blockquote_  ` →
-> _Italic Blockquote_
-
-![Screenshot Capture - 2025-01-11 - 08-43-12](https://github.com/user-attachments/assets/8798e75e-d880-478b-8911-f2294e3c80b6)
-
-```python
-def hello_world():
-    print("Hello, world!")
-```
-
----
-
 ## Footnotes (the footnote reference is at this page bottom)
 Here's a statement with a footnote.[^1]
 
 [^1]: This is the footnote text.
+
+
+---
 
 
 ## Lines
@@ -85,6 +64,10 @@ ___
 
 - Indented <br>
 &nbsp; &nbsp; ---
+
+
+---
+
 
 ## Lists
 
@@ -114,13 +97,8 @@ ___
 - [x] Example 2 completed
 - [ ] Example 3
 
+---
 
-
-### Code Block Highlighting 
-```python
-def hello_world():
-    print("Hello, world!")
-```
 
 ## Embedded HTML
 <details>
@@ -129,8 +107,8 @@ def hello_world():
 </details>
 
 
+---
 
- 
 
 # Tables
 ### Table Alignment
@@ -165,13 +143,15 @@ def hello_world():
 | <img width="200" atl="ball7" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball8" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball9" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> |  
 
 
+---
 
-# Add graphs with Mermaid
+
+## Graphs
 The best way to add graphs in Markdown is with [Mermaid](https://mermaid.js.org/). It is a JavaScript-based diagramming and charting tool that integrates seamlessly with Markdown. It allows users to create visually appealing diagrams, such as flowcharts, sequence diagrams, Gantt charts, and more, directly within Markdown documents using a simple and intuitive syntax. By embedding Mermaid code blocks in Markdown, you can dynamically generate diagrams that are easy to maintain and share, making it a popular choice for documentation and technical writing.
 
 <p>You can make many types of graphs, from diagrams to flow chart.</p>
 
-### Pie Chart
+#### Pie Chart
 ```mermaid
 %%{init: {"pie": {"textPosition": 0.5}, "themeVariables": {"pieOuterStrokeWidth": "5px"}} }%%
 pie showData
@@ -181,7 +161,7 @@ pie showData
     "Magnesium" : 10.01
     "Iron" :  5
 ```
-### Bar Chart
+#### Bar Chart
 ```mermaid
     xychart-beta
     title "Sales Revenue"
@@ -190,7 +170,7 @@ pie showData
     bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
     line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
  ```   
-### Diagram
+#### Diagram
 ```mermaid
   graph TD;
       A-->B;
@@ -210,7 +190,7 @@ sequenceDiagram
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
 ```
-### Mindmap
+#### Mindmap
 ```mermaid
  mindmap
   root((mindmap))
@@ -230,7 +210,7 @@ sequenceDiagram
       Pen and paper
       Mermaid
 ```
-### User Journey Chart
+#### User Journey Chart
 ```mermaid
  journey
     title My working day
@@ -242,7 +222,7 @@ sequenceDiagram
       Go downstairs: 5: Me
       Sit down: 3: Me
 ```
-### Block Chart
+#### Block Chart
 ```mermaid
  block-beta
     columns 3
@@ -264,7 +244,7 @@ sequenceDiagram
     style m fill:#d6d,stroke:#333,stroke-width:4px
     
 ```
-### Git Hierarchy Graph
+#### Git Hierarchy Graph
 ```mermaid
  gitGraph
     commit
@@ -278,7 +258,7 @@ sequenceDiagram
     commit
     commit
 ```
-### Packet Graph
+#### Packet Graph
 ```mermaid
  ---
 title: "TCP Packet"
@@ -302,7 +282,7 @@ packet-beta
   160-191: "(Options and Padding)"
   192-255: "Data (variable length)"
 ```
-### Class Diagram
+#### Class Diagram
 ```mermaid
  classDiagram
     Animal <|-- Duck
@@ -326,7 +306,7 @@ packet-beta
       +run()
     }
 ```
-### Quadrant Chart
+#### Quadrant Chart
 ```mermaid
 quadrantChart
     title Reach and engagement of campaigns
@@ -343,7 +323,7 @@ quadrantChart
     Campaign E: [0.40, 0.34]
     Campaign F: [0.35, 0.78]  
 ```
-### ER Chart
+#### ER Chart
 ```mermaid
  erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : has
@@ -355,3 +335,66 @@ quadrantChart
     PRODUCT-CATEGORY ||--|{ PRODUCT : contains
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
+
+---
+
+
+## Tips and Tricks
+#### Emojis
+- Smile: `:smile: ` → :smile:
+- Rocket: `:rocket: ` → :rocket:
+- Celebration: `:tada: ` → :tada:
+#### Embedded HTML
+![Screenshot Capture - 2025-01-11 - 09-03-24](https://github.com/user-attachments/assets/eac0e11a-152c-4c34-a439-da2c2efbfe0f)
+
+<details>
+  <summary>Click to expand</summary>
+  Hidden content here.
+</details>
+
+#### Blockquotes Highlight code for various programming languages
+
+- BLockquote: `> Normal Blockquote ` →
+> Normal Blockquote
+- BLockquote: `> **Bold Blockquote** ` →
+> **Bold Blockquote**
+- BLockquote: `> _Italic Blockquote_  ` →
+> _Italic Blockquote_
+
+#### Code blocks - highlight code for various programming languages
+![Screenshot Capture - 2025-01-11 - 08-43-12](https://github.com/user-attachments/assets/8798e75e-d880-478b-8911-f2294e3c80b6)
+
+```python
+def hello_world():
+    print("Hello, world!")
+```
+
+---
+
+
+## Contributing
+Contributions are welcome! If you'd like to add more tips or improve the content, please feel free to open an issue or submit a pull request. Let's make this cheatsheet the best resource for Markdown enthusiasts!
+
+---
+
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+---
+
+
+## Contact
+Created by Melanie Laporte. If you have questions or suggestions, feel free to reach out or open an issue on GitHub.
+
+
+
+
+
+
+
+
+
+
