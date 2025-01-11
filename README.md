@@ -1,12 +1,5 @@
 <h1 align="center">Markdown Cheatsheet</h1>
 
-# Type here...
-Type here...
-
-## Type here...
-
-Type here...
-
 # Text Decoration
 ### Strikethrough 
 Use a ~ before and after text
@@ -38,7 +31,6 @@ This is <sub>small or fine </sub>print text.
 > _Italic Blockquote_  
 
 ### Horizontal lines
-
 --- 
 ***
 ___
@@ -46,22 +38,44 @@ ___
 ### Indented line
 &nbsp; &nbsp; ---
 
-### .
+### Definition List
+<dl>
+  <dt><strong>Lower cost</strong></dt>
+  <dd>The new version of this product costs significantly less than the previous one!</dd>
+  <dt><strong>Easier to use</strong></dt>
+  <dd>We've changed the product so that it's much easier to use!</dd>
+  <dt><strong>Safe for kids</strong></dt>
+  <dd>You can leave your kids alone in a room with this product and they
+      won't get hurt (not a guarantee).</dd>
+</dl>
 
+### Task list - (Clickable in Issue)
+- [ ] Example 1
+- [x] Example 2 completed
+- [ ] Example 3
 
-### .
+### Footnotes
+Here's a statement with a footnote.[^1]
 
+[^1]: This is the footnote text.
 
-### .
+### Code Block Highlighting 
+```python
+def hello_world():
+    print("Hello, world!")
+```
 
+### Embedded HTML
+<details>
+  <summary>Click to expand</summary>
+  Hidden content here.
+</details>
 
-### .
-
-
+### Keyboard shortbuts
+Press `Ctrl` + `C` to copy.
 
 
 ### List
-
 - Fruit - Apples
   
   - Red
@@ -69,6 +83,15 @@ ___
  
 
 # Tables
+### Table Alignment
+| Left-Aligned | Center-Aligned | Right-Aligned |
+| :----------- | :------------: | ------------: |
+| Item 1       |     Item 2     |        Item 3 |
+
+- :-- means the column is left aligned.
+- --: means the column is right aligned.
+- :-: means the column is center aligned.
+
 ### 2 Column Table
 | Month    | Savings |
 | -------- | ------- |
@@ -84,16 +107,6 @@ ___
 | Codecademy Tee    |  False   | 19.99 |
 | Codecademy Hoodie |  False   | 42.99 |
 
-### Table Alignment
-
-| Left-Aligned | Center-Aligned | Right-Aligned |
-| :----------- | :------------: | ------------: |
-| Item 1       |     Item 2     |        Item 3 |
-
-- :-- means the column is left aligned.
-- --: means the column is right aligned.
-- :-: means the column is center aligned.
-
 ### 3 Column Table with Images
 |Content    |Example1    |Example2    |
 | --- | --- | --- |
@@ -101,27 +114,9 @@ ___
 | <img width="200" atl="ball4" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball5" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball6" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> |
 | <img width="200" atl="ball7" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball8" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball9" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> |  
 
-# Definition List
-Term
-: Definition of the term1.
-
-# Task list - (Clickable in Issue)
-- [ ] Example 1
-- [x] Example 2 completed
-- [ ] Example 3
-
-# Footnotes
-Here's a statement with a footnote.[^1]
-
-[^1]: This is the footnote text.
-
-# Code Block Highlighting 
-```python
-def hello_world():
-    print("Hello, world!")
 
 
-# How to add graphs -> Mermaid
+# Add graphs with Mermaid
 The best way to add graphs in Markdown is with [Mermaid](https://mermaid.js.org/). It is a JavaScript-based diagramming and charting tool that integrates seamlessly with Markdown. It allows users to create visually appealing diagrams, such as flowcharts, sequence diagrams, Gantt charts, and more, directly within Markdown documents using a simple and intuitive syntax. By embedding Mermaid code blocks in Markdown, you can dynamically generate diagrams that are easy to maintain and share, making it a popular choice for documentation and technical writing.
 
 <p>You can make many types of graphs, from diagrams to flow chart.</p>
