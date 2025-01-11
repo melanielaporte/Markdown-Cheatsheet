@@ -12,6 +12,7 @@ Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdo
 - [Lists](#lists)
 - [Tables](#tables)
 - [Graphs](#graphs)
+- [Emojis](#emojis)
 - [Tips and Tricks](#tips-and-tricks)
 - [Contributing](#contributing)
 - [License](#license)
@@ -339,12 +340,55 @@ quadrantChart
 ---
 
 
-## Tips and Tricks
-#### Emojis
+## Emojis
+Make your text fun and engaging with emojis:
+
 - Smile: `:smile: ` → :smile:
 - Rocket: `:rocket: ` → :rocket:
 - Celebration: `:tada: ` → :tada:
+
+| **Category**      | **Emoji**           | **Description**        |
+|--------------------|---------------------|------------------------|
+| **Science**        | 🔬 `:microscope:`  | Microscope            |
+|                    | 🧬 `:dna:`         | DNA                   |
+|                    | ⚛️ `:atom_symbol:` | Atom Symbol           |
+|                    | 🌡️ `:thermometer:` | Thermometer           |
+|                    | 💊 `:pill:`        | Pill                  |
+|                    | 🧪 `:test_tube:`   | Test Tube             |
+|                    | 🧫 `:petri_dish:`  | Petri Dish            |
+|                    | 🧹 `:broom:`       | Broom (Lab Cleanliness)|
+|                    | 🔭 `:telescope:`   | Telescope             |
+|                    | 🌌 `:milky_way:`   | Milky Way             |
+|                    | 🌕 `:full_moon:`   | Full Moon             |
+|                    | 🪐 `:ringed_planet:` | Ringed Planet       |
+|                    | 🛰️ `:satellite:`   | Satellite             |
+|                    | 🚀 `:rocket:`      | Rocket                |
+|                    | 🔋 `:battery:`     | Battery               |
+| **Engineering**    | ⚙️ `:gear:`         | Gear                  |
+|                    | 🛠️ `:hammer_and_wrench:` | Hammer and Wrench|
+|                    | 🔧 `:wrench:`      | Wrench                |
+|                    | 🧰 `:toolbox:`     | Toolbox               |
+|                    | 🏗️ `:building_construction:` | Building Construction |
+|                    | 🖥️ `:desktop_computer:` | Desktop Computer  |
+|                    | 🖲️ `:trackball:`   | Trackball             |
+|                    | 💻 `:laptop:`      | Laptop                |
+|                    | 🔌 `:electric_plug:` | Electric Plug       |
+|                    | 📡 `:satellite_antenna:` | Satellite Antenna |
+|                    | 🕹️ `:joystick:`    | Joystick              |
+|                    | 🔩 `:nut_and_bolt:` | Nut and Bolt         |
+| **Technology**     | 🤖 `:robot:`       | Robot                 |
+|                    | 📱 `:iphone:`      | Smartphone            |
+|                    | 🖱️ `:computer_mouse:` | Computer Mouse    |
+|                    | 🧑‍💻 `:technologist:` | Technologist        |
+|                    | 🔒 `:lock:`        | Lock (Cybersecurity)  |
+|                    | 📡 `:satellite_antenna:` | Satellite Antenna |
+|                    | 📊 `:bar_chart:`   | Bar Chart (Data Science) |
+|                    | 🌐 `:globe_with_meridians:` | Globe with Meridians (Internet and Networking) |
+
+## Tips and Tricks
 #### Embedded HTML
+Add collapsible sections or advanced styles with HTML:
+
 ![Screenshot Capture - 2025-01-11 - 09-03-24](https://github.com/user-attachments/assets/eac0e11a-152c-4c34-a439-da2c2efbfe0f)
 
 <details>
