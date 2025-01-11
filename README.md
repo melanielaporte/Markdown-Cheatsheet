@@ -7,6 +7,7 @@ Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdo
 
 ## Table of Contents
 - [Text Decoration](#text-decoration)
+- [Headings](#headings)
 - [Footnotes](#footnotes)
 - [Lines](#lines)
 - [Lists](#lists)
@@ -43,6 +44,17 @@ Here’s how to style your text:
 - Small/tiny print: `This is <sub>small or fine </sub>print text.
  ` → This is <sub>small or fine </sub>print text. 
 - Keyboard shortbuts: `` Press `Ctrl` + `C` to copy `` → Press `Ctrl` + `C` to copy
+
+---
+
+## Headings 
+# h1 ` # h1 ` 
+## h2 ` ## h2 `  
+### h3 ` ### h3 ` 
+#### h4 ` #### h4 ` 
+##### h5 ` ##### h5 ` 
+###### h6 ` ###### h6 ` 
+
 
 ---
 
