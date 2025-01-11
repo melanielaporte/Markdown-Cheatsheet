@@ -103,33 +103,12 @@ ___
 
 ---
 
-#### DEFINITIONS
-
-<dl>
-  <dt><strong>Lower cost</strong></dt>
-  <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt><strong>Easier to use</strong></dt>
-  <dd>We've changed the product so that it's much easier to use!</dd>
-  <dt><strong>Safe for kids</strong></dt>
-  <dd>You can leave your kids alone in a room with this product and they
-      won't get hurt (not a guarantee).</dd>
-</dl>
 
 #### TASKS - (Clickable in an Issue)
   
 - [ ] Example 1
 - [x] Example 2 completed
 - [ ] Example 3
-
----
-
-
-## Embedded HTML
-<details>
-  <summary>Click to expand</summary>
-  Hidden content here.
-</details>
-
 
 ---
 
@@ -166,9 +145,7 @@ ___
 | <img width="200" atl="ball4" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball5" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball6" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> |
 | <img width="200" atl="ball7" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball8" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> | <img width="200" atl="ball9" src="https://github.com/user-attachments/assets/569decce-86c8-40e4-a145-d6182cb8ca74"> |  
 
-
 ---
-
 
 ## Graphs
 The best way to add graphs in Markdown is with [Mermaid](https://mermaid.js.org/). It is a JavaScript-based diagramming and charting tool that integrates seamlessly with Markdown. It allows users to create visually appealing diagrams, such as flowcharts, sequence diagrams, Gantt charts, and more, directly within Markdown documents using a simple and intuitive syntax. By embedding Mermaid code blocks in Markdown, you can dynamically generate diagrams that are easy to maintain and share, making it a popular choice for documentation and technical writing.
@@ -438,6 +415,18 @@ def hello_world():
 #### Hidden Comment
 
 ` [This is a hidden comment.]: #  `
+
+#### DEFINITIONS
+
+<dl>
+  <dt><strong>Lower cost</strong></dt>
+  <dd>The new version of this product costs significantly less than the previous one!</dd>
+  <dt><strong>Easier to use</strong></dt>
+  <dd>We've changed the product so that it's much easier to use!</dd>
+  <dt><strong>Safe for kids</strong></dt>
+  <dd>You can leave your kids alone in a room with this product and they
+      won't get hurt (not a guarantee).</dd>
+</dl>
 
 ---
 
