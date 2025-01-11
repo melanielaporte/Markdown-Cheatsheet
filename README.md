@@ -7,10 +7,11 @@ Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdo
 
 ## Table of Contents
 - [Text Decoration](#text-decoration)
+- [Code Blocks & Blockquotes](#code-blocks-&-blockquotes)
+- [Footnotes](#footnotes)
+- [Lines](#lines)
 - [Tables](#tables)
 - [Lists](#lists)
-- [Code Blocks](#code-blocks)
-- [Footnotes](#footnotes)
 - [Tips and Tricks](#tips-and-tricks)
 - [Contributing](#contributing)
 - [License](#license)
@@ -35,37 +36,40 @@ Here’s how to style your text:
 - *Italic*: `*italic text*` → *italic text*  
 - ~~Strikethrough~~: `~~strikethrough~~` → ~~strikethrough~~  
 - Inline Code: `` `code` `` → `code`
+- Math equation superscript: `$$E = mc^2$$` →  $$E = mc^2$$
+- Math equation subscript: `H<sub>2</sub>O (Water)` → H<sub>2</sub>O (Water)
+- Emoji smile: `:smile: ` → :smile:
+- Emoji rocket: `:rocket: ` → :rocket:
+- Highlighted: `<mark>This text is highlighted.</mark> ` → <mark>This text is highlighted.</mark> 
+- Small/tiny print: `This is <sub>small or fine </sub>print text.
+ ` → This is <sub>small or fine </sub>print text. 
+- Emoji celebration: `:tada: ` → :tada:
+- Emoji celebration: `:tada: ` → :tada:
+- Emoji celebration: `:tada: ` → :tada:
+- Emoji celebration: `:tada: ` → :tada: 
 
 ---
 
-### Strikethrough 
-Use a ~ before and after text
-<p>~~This text is struck through.~~</p>
+## Code Blocks & Blockquotes
 
-### Math equation - sub and superscript
-$$E = mc^2$$  <br> H<sub>2</sub>O (Water)
+Highlight code for various programming languages:
 
-### Emojis
-Smile :smile: 
-<p>Rocket :rocket:</p> 
-<p>Celebration :tada:</p>
+- BLockquote: `> Normal Blockquote ` →
+> Normal Blockquote
+- BLockquote: `> **Bold Blockquote** ` →
+> **Bold Blockquote**
+- BLockquote: `> _Italic Blockquote_  ` →
+> _Italic Blockquote_
 
-### Highlighted 
-<mark>This text is highlighted.</mark>
+![Screenshot Capture - 2025-01-11 - 08-43-12](https://github.com/user-attachments/assets/8798e75e-d880-478b-8911-f2294e3c80b6)
 
-### Small print
-This is <sub>small or fine </sub>print text.
+```python
+def hello_world():
+    print("Hello, world!")
+```
 
-### Italic 
- *blue*
 
-### Bold 
- **blue**
-
-### Blockquote 
-> Normal Blockquote<br>
-> **Bold Blockquote**  
-> _Italic Blockquote_  
+---
 
 ### Horizontal lines
 --- 
