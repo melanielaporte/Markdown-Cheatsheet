@@ -431,7 +431,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 
 ## Contact
-Created by Melanie Laporte. If you have questions or suggestions, feel free to reach out or open an issue on GitHub.
+Created by [Melanie Laporte](https://github.com/melanielaporte). If you have questions or suggestions, feel free to reach out or open an issue on GitHub.
 
 
 
