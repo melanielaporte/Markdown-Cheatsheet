@@ -2,7 +2,6 @@
 
 Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdown syntax and creating beautifully formatted documents! Whether you're a beginner or a seasoned pro, this cheatsheet is designed to help you quickly reference and utilize Markdown effectively.
 
-
 ---
 
 ## Table of Contents
@@ -424,7 +423,11 @@ Add collapsible sections or advanced styles with HTML:
 def hello_world():
     print("Hello, world!")
 ```
+#### Hidden Comment
 
+' [This is a hidden comment.]: # '
+` [This is a hidden comment.]: #  `
+[This is a hidden comment.]: # 
 ---
 
 
