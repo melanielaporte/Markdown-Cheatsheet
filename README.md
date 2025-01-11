@@ -90,7 +90,7 @@ ___
       won't get hurt (not a guarantee).</dd>
 </dl>
 
-#### TASKS - (Clickable in Issue)
+#### TASKS - (Clickable in an Issue)
 
   
 - [ ] Example 1
