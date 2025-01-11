@@ -10,8 +10,9 @@ Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdo
 - [Code Blocks & Blockquotes](#code-blocks-&-blockquotes)
 - [Footnotes](#footnotes)
 - [Lines](#lines)
-- [Tables](#tables)
 - [Lists](#lists)
+- [Tables](#tables)
+- [Embedded HTML](#embedded-html)
 - [Tips and Tricks](#tips-and-tricks)
 - [Contributing](#contributing)
 - [License](#license)
@@ -40,13 +41,11 @@ Here’s how to style your text:
 - Math equation subscript: `H<sub>2</sub>O (Water)` → H<sub>2</sub>O (Water)
 - Emoji smile: `:smile: ` → :smile:
 - Emoji rocket: `:rocket: ` → :rocket:
+- Emoji celebration: `:tada: ` → :tada:
 - Highlighted: `<mark>This text is highlighted.</mark> ` → <mark>This text is highlighted.</mark> 
 - Small/tiny print: `This is <sub>small or fine </sub>print text.
  ` → This is <sub>small or fine </sub>print text. 
-- Emoji celebration: `:tada: ` → :tada:
-- Emoji celebration: `:tada: ` → :tada:
-- Emoji celebration: `:tada: ` → :tada:
-- Emoji celebration: `:tada: ` → :tada: 
+- Keyboard shortbuts: `` Press `Ctrl` + `C` to copy `` → Press `Ctrl` + `C` to copy
 
 ---
 
@@ -68,18 +67,36 @@ def hello_world():
     print("Hello, world!")
 ```
 
-
 ---
 
-### Horizontal lines
+## Footnotes (the footnote reference is at this page bottom)
+Here's a statement with a footnote.[^1]
+
+[^1]: This is the footnote text.
+
+
+## Lines
+
+- Horizontal
+
 --- 
 ***
 ___
 
-### Indented line
+- Indented <br>
 &nbsp; &nbsp; ---
 
-### Definition List
+## Lists
+
+#### LISTS
+
+- Fruit - Apples
+  
+  - Red
+  - Green
+
+#### DEFINITIONS
+
 <dl>
   <dt><strong>Lower cost</strong></dt>
   <dd>The new version of this product costs significantly less than the previous one!</dd>
@@ -90,15 +107,14 @@ ___
       won't get hurt (not a guarantee).</dd>
 </dl>
 
-### Task list - (Clickable in Issue)
+#### TASKS - (Clickable in Issue)
+
+  
 - [ ] Example 1
 - [x] Example 2 completed
 - [ ] Example 3
 
-### Footnotes (the footnote reference is at this page bottom)
-Here's a statement with a footnote.[^1]
 
-[^1]: This is the footnote text.
 
 ### Code Block Highlighting 
 ```python
@@ -106,21 +122,14 @@ def hello_world():
     print("Hello, world!")
 ```
 
-### Embedded HTML
+## Embedded HTML
 <details>
   <summary>Click to expand</summary>
   Hidden content here.
 </details>
 
-### Keyboard shortbuts
-Press `Ctrl` + `C` to copy.
 
 
-### List
-- Fruit - Apples
-  
-  - Red
-  - Green
  
 
 # Tables
