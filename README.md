@@ -149,6 +149,8 @@ The best way to add graphs in Markdown is with [Mermaid](https://mermaid.js.org/
 <p>You can make many types of graphs, from diagrams to flow chart.</p>
 
 #### Pie Chart
+![Screenshot Capture - 2025-01-15 - 07-29-54](https://github.com/user-attachments/assets/0d65d295-1f12-47d6-8184-4660fb3c2c44)
+
 ```mermaid
 %%{init: {"pie": {"textPosition": 0.5}, "themeVariables": {"pieOuterStrokeWidth": "5px"}} }%%
 pie showData
@@ -159,6 +161,8 @@ pie showData
     "Iron" :  5
 ```
 #### Bar Chart
+![Screenshot Capture - 2025-01-15 - 07-30-28](https://github.com/user-attachments/assets/3eb42b08-c10c-408b-b8b2-9f6d168df0aa)
+
 ```mermaid
     xychart-beta
     title "Sales Revenue"
@@ -168,6 +172,8 @@ pie showData
     line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
  ```   
 #### Diagram
+![Screenshot Capture - 2025-01-15 - 07-31-20](https://github.com/user-attachments/assets/5e48d5c1-40eb-4fe4-a525-2777bfd55177)
+
 ```mermaid
   graph TD;
       A-->B;
@@ -175,6 +181,9 @@ pie showData
       B-->D;
       C-->D;
 ```
+#### Diagram
+![Screenshot Capture - 2025-01-15 - 07-31-35](https://github.com/user-attachments/assets/a7aecb65-39f6-463e-a873-7ae759bad50f)
+
 ```mermaid
 sequenceDiagram
     participant dotcom
@@ -188,6 +197,8 @@ sequenceDiagram
     iframe->>iframe: render mermaid
 ```
 #### Mindmap
+![Screenshot Capture - 2025-01-15 - 07-31-51](https://github.com/user-attachments/assets/55d631e4-9484-458a-9168-5742b7213e51)
+
 ```mermaid
  mindmap
   root((mindmap))
@@ -208,6 +219,8 @@ sequenceDiagram
       Mermaid
 ```
 #### User Journey Chart
+![Screenshot Capture - 2025-01-15 - 07-32-06](https://github.com/user-attachments/assets/b0af5f92-3446-47e3-84ef-f148bc6022b1)
+
 ```mermaid
  journey
     title My working day
@@ -220,6 +233,8 @@ sequenceDiagram
       Sit down: 3: Me
 ```
 #### Block Chart
+![Screenshot Capture - 2025-01-15 - 07-32-18](https://github.com/user-attachments/assets/a64e42be-dad3-4d46-8bbf-f3a030b21fc7)
+
 ```mermaid
  block-beta
     columns 3
@@ -242,6 +257,8 @@ sequenceDiagram
     
 ```
 #### Git Hierarchy Graph
+![Screenshot Capture - 2025-01-15 - 07-32-53](https://github.com/user-attachments/assets/c433d090-0707-44ae-bd5a-cf0b6519fea3)
+
 ```mermaid
  gitGraph
     commit
@@ -256,6 +273,8 @@ sequenceDiagram
     commit
 ```
 #### Packet Graph
+![Screenshot Capture - 2025-01-15 - 07-33-06](https://github.com/user-attachments/assets/728827bc-4804-4aa9-995e-ff5fafb7b4c7)
+
 ```mermaid
  ---
 title: "TCP Packet"
@@ -280,6 +299,8 @@ packet-beta
   192-255: "Data (variable length)"
 ```
 #### Class Diagram
+![Screenshot Capture - 2025-01-15 - 07-33-19](https://github.com/user-attachments/assets/e4d41432-b78c-46be-864c-3753da870f98)
+
 ```mermaid
  classDiagram
     Animal <|-- Duck
@@ -304,6 +325,8 @@ packet-beta
     }
 ```
 #### Quadrant Chart
+![Screenshot Capture - 2025-01-15 - 07-33-33](https://github.com/user-attachments/assets/076ffed5-457c-4616-b164-c841edf85444)
+
 ```mermaid
 quadrantChart
     title Reach and engagement of campaigns
@@ -321,6 +344,8 @@ quadrantChart
     Campaign F: [0.35, 0.78]  
 ```
 #### ER Chart
+![Screenshot Capture - 2025-01-15 - 07-33-43](https://github.com/user-attachments/assets/63235143-1f72-4b72-a190-cbef3da6ae34)
+
 ```mermaid
  erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : has
