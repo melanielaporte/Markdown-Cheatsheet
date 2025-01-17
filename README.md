@@ -62,7 +62,11 @@ Here’s how to style your text:
 ## Footnotes (the footnote reference is at this page bottom)
 Here's a statement with a footnote.[^1]
 
+![Screenshot Capture - 2025-01-17 - 05-20-53](https://github.com/user-attachments/assets/b1855ca5-6297-4438-8d31-520ec50a0dc7)
+
 [^1]: This is the footnote text.
+
+
 
 
 ---
