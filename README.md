@@ -1,6 +1,7 @@
 <h1 align="center">:wrench: Ultimate Markdown Guide :wrench:</h1>
 
-Welcome to the **Markdown Cheatsheet**, your go-to resource for mastering Markdown syntax and creating beautifully formatted documents! Whether you're a beginner or a seasoned pro, this cheatsheet is designed to help you quickly reference and utilize Markdown effectively.
+Here is a go-to resource for mastering Markdown syntax and creating beautifully formatted documents. 
+<p>Whether you're a beginner or a seasoned pro, this cheatsheet is designed to help you quickly reference and utilize Markdown effectively.</p>
 
 ---
 
