@@ -60,13 +60,15 @@ Here’s how to style your text:
 ---
 
 ## Footnotes 
-Here's a statement with a footnote.[^1] (the footnote reference is at this page bottom)
 
-![Screenshot Capture - 2025-01-17 - 05-20-53](https://github.com/user-attachments/assets/b1855ca5-6297-4438-8d31-520ec50a0dc7)
+![Screenshot Capture - 2025-01-17 - 05-24-49](https://github.com/user-attachments/assets/63d13bb5-ae6d-43cc-a4cd-2444d06c219c)
+
+Here's a statement with a footnote.[^1] 
 
 [^1]: This is the footnote text.
 
-
+(the footnote reference is at this page bottom)
+![Screenshot Capture - 2025-01-17 - 05-20-53](https://github.com/user-attachments/assets/b1855ca5-6297-4438-8d31-520ec50a0dc7)
 
 
 ---
